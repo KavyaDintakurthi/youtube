@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+}
+.sideitem{
+    padding: 20px;
+}
+.big{
+    display: flex;
+}
+.nav{
+    display: flex;
+    gap: 200px;
+}
+input[type="search"]{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.navitem2{
+    gap:5px;
+    padding: 5px;
+}
+.navitem3{
+    display: flex;
+    gap: 10px;
+}
+.profile{
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    background-color: orchid;
+}
+.options{
+    display: flex;
+    gap: 60px;
+}
+.option{
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(59, 55, 55);
+    border-radius: 5px;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
